@@ -63,4 +63,38 @@
 .list-sotto-img ul li{
     margin: 0 10px;
 }
+
+/* PORTFOLIO */
+.portfolio{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.icons{
+    height: 200px;
+    background-color: red;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.icons.red{
+    background-color: #ba4b63;
+}
+.icons.green{
+    background-color: #1ea4b6;
+}
+.icons.black{
+    background-color: #140f0f;
+}
+.icons.water{
+    background-color: #1c83c1;
+}
+.icons.blue{
+    background-color: #0e38b5;
+}
+.icons.skin{
+    background-color: #ccb2a3;
+}
+/* END PORTFOLIO */
+
 /* END MENù */

@@ -1,0 +1,35 @@
+/* sfondo e colore header */
+._background{
+    background-color: #2c3e50;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+/* CARATTERE SCRITTA PRIMA COLONNA */
+.row .col-6:nth-child(1){
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+}
+/* MODIFICHE LISTA DESTRA */
+.row .col-6 .box ul{
+    list-style-type: none;
+    display: flex; 
+    justify-content: flex-end; 
+}
+.row .col-6 .box ul li{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 12px;
+}
+/* IL MENù */
+.row .col-6:nth-child(2){
+    text-align: right;
+}
+.centratura{
+    display: flex;
+    align-items: center;
+}

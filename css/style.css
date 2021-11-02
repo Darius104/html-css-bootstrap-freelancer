@@ -65,7 +65,7 @@
 }
 
 /* PORTFOLIO */
-.portfolio{
+.sottotitolo{
     text-align: center;
     font-weight: bold;
     font-size: 25px;
@@ -96,5 +96,11 @@
     background-color: #ccb2a3;
 }
 /* END PORTFOLIO */
-
+/* ABOUT */
+@media  (max-width: 575.98px) {
+    .special{
+        margin-top: 20px;
+    }
+}
+/* END ABOUT */
 /* END MENù */

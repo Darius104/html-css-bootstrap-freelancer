@@ -97,10 +97,32 @@
 }
 /* END PORTFOLIO */
 /* ABOUT */
-@media  (max-width: 575.98px) {
+@media  (max-width: 767.98px) {
     .special{
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 /* END ABOUT */
+
+/* CONTACT ME */
+.custom-container .row .col-12 .box{
+    margin-bottom: 50px;
+}
+/* END CONTACT ME */
 /* END MENù */
+
+/* FOOTER */
+._first_background_footer{
+    background-color: #3a546d;
+
+}
+.container .row .box{
+    text-align: center;
+    color: white;
+}
+._second_background_footer{
+    background-color: #2c3e50;
+    color: white;
+}
+/* END FOOTER */

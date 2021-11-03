@@ -1,3 +1,7 @@
+/* RESET */
+img{
+    width: 100%;
+}
 /* HEADER */
 ._background{
     background-color: #2c3e50;
@@ -38,11 +42,13 @@
 /* MENù */
 ._background_2{
     background-color: #1abc9c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* CUSTOM CONTAINER SOTTO HEADER */
 .custom-container{
     width: 50%;
-    
     margin: auto;
     display: flex;
     align-items: center;
@@ -53,6 +59,30 @@
 }
 .testo-sotto-img{
     margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+._icons{
+    text-align: center;
+    font-size: 29px;
+    margin: 0 5px;
+}
+.container-star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar{
+    height: 5px;
+    width: 20%;
+    border-radius: 40px;
+}
+._background_2 .bar{
+    background-color: white;
+}
+._background_2 ._icons{
+    color: white;
 }
 .list-sotto-img ul{
     list-style-type: none;
@@ -61,7 +91,7 @@
     padding: 0;  
 }
 .list-sotto-img ul li{
-    margin: 0 10px;
+    color: white;
 }
 
 /* PORTFOLIO */
@@ -76,6 +106,19 @@
     background-color: red;
     border-radius: 10px;
     margin: 20px 0;
+}
+.container .sottotitolo .container-star .bar{
+    background-color: #212529;
+}
+[class*="icons"]{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-img{
+    width: 250px;
+    border-radius: 50%;
 }
 .icons.red{
     background-color: #ba4b63;

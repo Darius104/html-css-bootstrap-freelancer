@@ -140,8 +140,17 @@
         <div class="_background_2">
             <div class="custom-container">
                 <div class="sottotitolo">
-                    Lorem
+                    ABOUT
                 </div>
+                <!-- STAR -->
+                <div class="container-star">
+                    <div class="bar"></div>
+                    <div class="_icons">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="bar"></div>
+                </div>
+                <!-- END STAR -->
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-6">
                         <div class="box">
@@ -155,26 +164,45 @@
                     </div>
                     
                 </div>
+                <div class="bottone">
+                    <i class="fas fa-download"></i>  Download
+                </div>
             </div>
         </div>
         <!-- END ABOUT -->
 
         <!-- CONTACT ME -->
-        <div class="custom-container">
+        <div class="container-sm">
             <div class="sottotitolo">
-                Lorem
+                CONTACT ME
             </div>
             <div class="row">
                 <div class="col-12">
                     <div class="box">
-                        Name 
-                        <hr>
-                        Email Address 
-                        <hr>
-                        Phone Number
-                        <hr>
-                        Message
-                        <input type="text">
+                        <form class="f-container">
+                            <div class="mb-3">
+                                <label for="name" class="form-label sr-only">Name</label>
+                                <input placeholder="Nome" type="text" class="form-control" id="name">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label sr-only">email</label>
+                                <input placeholder="email" type="email" class="form-control" id="email">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label sr-only">Name</label>
+                                <input placeholder="Telefono" type="text" class="form-control" id="telefono">
+                            </div>
+
+                            <div class="mb-3">
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label sr-only">Example textarea</label>
+                                <textarea placeholder="Commenta" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -190,17 +218,29 @@
                 <div class="row">
                     <div class="col-12 col-md-4 col-lg-4">
                         <div id="special-final-list" class="box">
-                            <span>lorem</span>
+                            <div class="_col-left">
+                                <span class="titoli-footer">LOCATION</span> <br> 2215 John Daniel Drive Clark, MO 54243
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 col-lg-4">
                         <div id="special-final-list" class="box">
-                            <span>lorem</span>
+                            <div class="_col-center">
+                                <span class="titoli-footer">AROUND THE WEB <br></span> 
+                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-12 col-md-4 col-lg-4">
                         <div id="special-final-list" class="box">
-                            <span>lorem</span>
+                            <div class="_col-right">
+                                <span class="titoli-footer">ABOUT FREELANCER </span><br> Freelance is a free to use, open source Bootstrap <br> theme created by <span id="color-green">Start Bootstrap</span>. 
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
